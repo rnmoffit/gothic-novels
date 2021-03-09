@@ -49,7 +49,8 @@ background: '/img/greyskies.jpg'
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-<p>On the other hand, by narrowing down our data to only the London publishers, the map looks a little more interesting. (This data was found by looking at scanned first edition title pages and rigorous internet searching.</p>
+<p>On the other hand, by narrowing down our data to only the London publishers, the map looks a little more interesting.</p>
+<p>I searched online for scanned copies of first editions since publishers would sometimes include a street address on the title page. I added pins to a Google map to approximate those locations, and then transferred the coordinates over to Tableau so I could include each publisher's number of works.</p>
 
 <!--Map 2-->
 <div class='tableauPlaceholder' id='viz1615080062301' style='position: relative'>
@@ -96,4 +97,7 @@ background: '/img/greyskies.jpg'
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-<p> I'll also link to that <a href="https://www.locatinglondon.org/index.html">historic London map</a>. I don't think I can map on top of the map, but it's a cool project. </p>
+<h3>HOWEVER.</h3>
+<p>The margin of error here is extremely high. Some title pages listed two streets for a single publisher that were not in the same part of town; in those cases, I chose whichever street was closest to the other points, assuming that some areas had more publishing houses than others. Some areas may not exist anymore: Paternoster Row, a major hub for publishers, was destroyed during WWII.
+
+<p>Locating London has a neat map of <a href="https://www.locatinglondon.org/index.html">historic London</a> that shows what the city looked like in 1746. While I can't plot my own data points on that map, there's plenty of other data filters you can explore on their site. </p>
